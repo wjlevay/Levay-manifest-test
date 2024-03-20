@@ -1,0 +1,13 @@
+{
+  "id" : "https://wjlevay.github.io/Levay manifest test/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in wjlevay/Levay-manifest-test project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://wjlevay.github.io/Levay manifest test/manifests/manifest.json",
+    "label" : "Bill's CRT Collection"
+  } ]
+}
