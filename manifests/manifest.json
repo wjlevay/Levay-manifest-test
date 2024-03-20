@@ -1,0 +1,83 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://wjlevay.github.io/Levay manifest test/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Bill's CRT Collection",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Photographs of CRTs in my modest collection",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Photos copyright Bill Levay",
+  "sequences" : [ {
+    "@id" : "http://cccd5146-e0b4-470b-b93f-ca0bf15dfb85",
+    "@type" : "sc:Sequence",
+    "label" : "Normal Sequence",
+    "canvases" : [ {
+      "@id" : "http://a00480b3-98b5-4839-9be4-e911a7510cce",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1bf3b84f-47f3-441e-a86d-33300ed3dfbb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-0656_202403/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-0656_202403",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://a00480b3-98b5-4839-9be4-e911a7510cce"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://220c89f3-c8d2-4204-8be9-5b43443a6a32",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : "0",
+      "width" : "0",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://77b7ff97-10be-4a28-9942-cab5e1a12d87",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-1186_202403/full/full/90/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-1186_202403",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://220c89f3-c8d2-4204-8be9-5b43443a6a32"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://a00480b3-98b5-4839-9be4-e911a7510cce" ]
+  } ]
+}
