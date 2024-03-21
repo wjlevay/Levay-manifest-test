@@ -15,5 +15,11 @@
       "en" : [ "PR_1055" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://wjlevay.github.io/Levay manifest test/manifests/PR_1055",
+    "label" : {
+      "en" : [ "PR_1055" ]
+    },
+    "type" : "Manifest"
   } ]
 }
