@@ -9,5 +9,11 @@
     "@type" : "sc:Manifest",
     "@id" : "https://wjlevay.github.io/Levay manifest test/manifests/manifest.json",
     "label" : "Bill's CRT Collection"
+  }, {
+    "id" : "https://wjlevay.github.io/Levay manifest test/manifests/manifest",
+    "label" : {
+      "en" : [ "PR_1055" ]
+    },
+    "type" : "Manifest"
   } ]
 }
